@@ -1,0 +1,4 @@
+bin/
+obj/
+*.layout
+cpp/basics/practice/

@@ -20,7 +20,7 @@ The engineers who can bridge AI and FPGA hardware are rare. This repo is my atte
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| 1 | C basics → C++ fundamentals | 🟡 In progress |
+| 1 | C++ fundamentals | 🟡 In progress |
 | 2 | C++ for Vitis HLS (`ap_fixed`, `ap_int`, pragmas) | ⬜ Upcoming |
 | 3 | Python basics | ⬜ Upcoming |
 | 4 | Python ML libraries (NumPy, pandas) | ⬜ Upcoming |
@@ -78,7 +78,6 @@ The messy, honest version of learning — not cleaned up tutorials.
 - **C/C++:** Code::Blocks + MinGW (Windows)
 - **Python:** VS Code + Python 3.14 (Windows)
 - **Target platform:** AMD Vitis HLS, Vitis AI (Vitis Unified Platform)
-- **Cloud:** AWS F1 instances (planned)
 - **Reference:** [AMD Vitis AI GitHub](https://github.com/Xilinx/Vitis-AI)
 
 ---
