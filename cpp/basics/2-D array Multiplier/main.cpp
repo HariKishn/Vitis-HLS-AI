@@ -1,7 +1,7 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-void macmul(float a[][10], float b[][10], float c[][10], int rows, int shared, int columns)
+void macmul(float a[][10], float b[][10], float c[][10], int rows, int columns)
 {
     float total = 0;
     for(int i=0; i<rows; i++)
@@ -9,51 +9,45 @@ void macmul(float a[][10], float b[][10], float c[][10], int rows, int shared, i
         for(int j=0; j<columns; j++)
         {
             total = 0;
-            for(int k=0; k<shared; k++)
+            for(int k=0; k<columns; k++)
             {
                total += a[i][k] * b[k][j];
             }
-            c[i][j] = total;
+             c[i][j] = total;
         }
     }
     return;
 }
-
 int main()
 {
-    int m, p, n;
-    cout << "Enter rows of A : " << endl;
+    int m;
+    int n;
+    cout << "Enter the no. of rows :" << endl;
     cin >> m;
-    cout << "Enter shared dimension (cols of A = rows of B) : " << endl;
-    cin >> p;
-    cout << "Enter cols of B : " << endl;
+    cout << "Enter the no. of columns :" << endl;
     cin >> n;
-
     float A[10][10] = {};
     float B[10][10] = {};
     float C[10][10] = {};
-
-    cout << "Enter values for Matrix A (" << m << "x" << p << ") :" << endl;
+    cout << "Enter the values for Matrix A :" << endl;
     for(int i=0; i<m; i++)
     {
-        for(int j=0; j<p; j++)
+        for(int j=0; j<n; j++)
         {
             cin >> A[i][j];
         }
     }
-
-    cout << "Enter values for Matrix B (" << p << "x" << n << ") :" << endl;
-    for(int i=0; i<p; i++)
+    cout << "Enter the values for matrix B :" << endl;
+    for(int i=0; i<m; i++)
     {
         for(int j=0; j<n; j++)
         {
             cin >> B[i][j];
         }
+        cout << endl;
     }
-
-    macmul(A, B, C, m, p, n);
-
-    cout << "Result Matrix C (" << m << "x" << n << ") :" << endl;
+    macmul(A, B, C, m, n);
+    cout << "Result Matrix C :" << endl;
     for(int i=0; i<m; i++)
     {
         for(int j=0; j<n; j++)
