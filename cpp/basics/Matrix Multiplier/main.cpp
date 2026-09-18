@@ -58,6 +58,5 @@ int main()
     }
     return 0;
 }
-Explain the code in a very interactive way
 
 
