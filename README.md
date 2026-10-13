@@ -2,9 +2,11 @@
 
 > Documenting my path from C++ basics to deploying neural networks on FPGAs with AMD Vitis HLS and Vitis AI.
 
-**Goal:** Edge AI inference on FPGAs — automotive, medical, industrial applications.  
-**Timeline:** 6–8 months, starting 2025.  
-**Status:** 🟡 Phase 1 — C/C++ fundamentals (in progress)
+**Goal:** Edge AI inference on FPGAs — defence, finance and other industrial applications.  
+**Timeline:** 6 months, starting 01/06/2026.  
+**Status:** 
+✅ Phase 1 - C/C++ fundamentals (Completed)
+🟡 Phase 2 - HLS Specific C++ (In Progress)
 
 ---
 
@@ -20,8 +22,8 @@ The engineers who can bridge AI and FPGA hardware are rare. This repo is my atte
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| 1 | C++ fundamentals | 🟡 In progress |
-| 2 | C++ for Vitis HLS (`ap_fixed`, `ap_int`, pragmas) | ⬜ Upcoming |
+| 1 | C++ fundamentals | ✅ In progress |
+| 2 | C++ for Vitis HLS (`ap_fixed`, `ap_int`, pragmas) | 🟡 Upcoming |
 | 3 | Python basics | ⬜ Upcoming |
 | 4 | Python ML libraries (NumPy, pandas) | ⬜ Upcoming |
 | 5 | Deep learning with PyTorch | ⬜ Upcoming |
