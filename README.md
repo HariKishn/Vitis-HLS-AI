@@ -10,7 +10,7 @@
 
 ---
 
-## Why this path?
+## Why this path ?
 
 Most people learning AI stop at PyTorch and cloud APIs. I wanted to go further — all the way down to the hardware. FPGAs offer deterministic, ultra-low-latency inference that GPUs and CPUs can't match for certain edge applications.
 
@@ -22,8 +22,8 @@ The engineers who can bridge AI and FPGA hardware are rare. This repo is my atte
 
 | Phase | Topic | Status |
 |-------|-------|--------|
-| 1 | C++ fundamentals | ✅ In progress |
-| 2 | C++ for Vitis HLS (`ap_fixed`, `ap_int`, pragmas) | 🟡 Upcoming |
+| 1 | C++ fundamentals | ✅ Completed |
+| 2 | C++ for Vitis HLS (`ap_fixed`, `ap_int`, pragmas) | 🟡 In Progress |
 | 3 | Python basics | ⬜ Upcoming |
 | 4 | Python ML libraries (NumPy, pandas) | ⬜ Upcoming |
 | 5 | Deep learning with PyTorch | ⬜ Upcoming |
@@ -86,7 +86,7 @@ The messy, honest version of learning — not cleaned up tutorials.
 
 ## Follow along
 
-Progress updates on X → [@yourhandle](https://twitter.com/yourhandle)  
+Progress updates on X → [@yourhandle](https://x.com/hari_clocked)  
 Hashtags: `#FPGA` `#VitisHLS` `#VitisAI`
 
 ---
